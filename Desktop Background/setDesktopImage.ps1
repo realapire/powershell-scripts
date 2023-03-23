@@ -1,0 +1,1 @@
+(New-Object System.Net.WebClient).DownloadFile("ENTER URL","$env:TEMP\image.jpg"); Set-ItemProperty -Path 'HKCU:\Control Panel\Desktop' -Name Wallpaper -Value "$env:TEMP\image.jpg"; rundll32.exe user32.dll, UpdatePerUserSystemParameters
