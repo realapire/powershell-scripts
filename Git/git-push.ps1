@@ -11,4 +11,4 @@ if (-not $branch) {
     $branch = "master"
 }
 
-git push -u origin $branch
+git push -u -f origin $branch
